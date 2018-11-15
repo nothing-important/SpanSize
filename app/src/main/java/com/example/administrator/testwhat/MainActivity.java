@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public int getSpanSize(int i) {
                 if (i == 0 || i == 3 || i == 6){
-                    return 3;
+                    return 2;
                 }else {
                     return 1;
                 }
